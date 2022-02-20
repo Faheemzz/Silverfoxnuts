@@ -9629,6 +9629,9 @@ input.quantity {
   .custom-p{
     padding: 0 20px;
   }
+  .bn-about{
+    padding:  0;
+  }
 }
 .minipopup-area{
   display: none !important;
