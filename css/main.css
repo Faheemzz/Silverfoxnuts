@@ -9630,3 +9630,6 @@ input.quantity {
     padding: 0 20px;
   }
 }
+.minipopup-area{
+  display: none !important;
+}
