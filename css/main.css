@@ -926,7 +926,7 @@ blockquote {
   max-width: 1820px;
 }
 .container {
-  max-width: 1280px;
+  max-width: 1160px;
 }
 .row {
   display: flex;
@@ -8185,7 +8185,7 @@ input.quantity {
 }
 @media (max-width: 1199px) {
   .header-middle .logo {
-    margin-right: 14rem;
+    margin-right: 15rem;
   }
 }
 @media (max-width: 1024px) {
@@ -9488,6 +9488,14 @@ input.quantity {
   padding-left: 10.6%;
 }
 .product-section {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.5830707282913166) 100%,
+      rgba(255, 255, 255, 0.22172619047619047) 100%
+    ),
+    url(../images/products/Layer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-bottom: 8rem;
 }
 .benefit-section {
@@ -9613,26 +9621,75 @@ input.quantity {
 .cont-btn {
   padding: 1.25em 2.78em 0.95em !important;
 }
-.hrt{
+.hrt {
   color: red;
 }
-.custom-p{
+.custom-p {
   padding: 0 25%;
 }
-.sp1 svg{
+.sp1 svg {
   top: -20vw;
 }
-.bn-about{
-  padding:  0 10rem;
+.bn-about {
+  padding: 0 10rem;
 }
-@media (max-width: 768px){
-  .custom-p{
+@media (max-width: 768px) {
+  .custom-p {
     padding: 0 20px;
   }
-  .bn-about{
-    padding:  0;
+  .bn-about {
+    padding: 0;
   }
 }
-.minipopup-area{
+.minipopup-area {
   display: none !important;
+}
+section.newsletter {
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+  background: url(../images/newsletter/makhana.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+section.newsletter .m-images img {
+  width: 100px;
+  position: absolute;
+}
+section.newsletter .m-images img.m1 {
+  top: -42px;
+  left: 119px;
+}
+section.newsletter .m-images img.m2 {
+  bottom: -43px;
+  left: 406px;
+}
+section.newsletter .m-images img.m3 {
+  top: -43px;
+  right: -27px;
+}
+section.newsletter h3 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+section.newsletter p {
+  margin-bottom: 2.8rem;
+  max-width: 55rem;
+  margin: 0 auto;
+}
+section.newsletter form {
+  color: #fff;
+  max-width: 61rem;
+  border-width: 0 0 1px 0;
+  margin-left: auto;
+  margin: 4rem auto 5rem;
+  height: 5.1rem;
+}
+section.newsletter form ::placeholder {
+  color: #fff;
+}
+.cont-sec button {
+  width: 100%;
 }
