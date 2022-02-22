@@ -9690,6 +9690,9 @@ section.newsletter form {
 section.newsletter form ::placeholder {
   color: #fff;
 }
+section.newsletter form input {
+  color: #fff;
+}
 .cont-sec button {
   width: 100%;
 }
